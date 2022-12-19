@@ -21,6 +21,7 @@ export default function Name( {setUser, user, name, isName, isEmail} ) {
                     <input 
                         type="text"
                         name="name"
+                        autoComplete='off'
                         onChange={handleChange}
                         required
                     />
